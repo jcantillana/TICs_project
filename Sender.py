@@ -19,6 +19,8 @@ class Sender:
 
     def send_image(self):
         """ Sends the image data with the header """
+
+        "Hola po olivdona"
         pass
 
     def send_text(self, freqList) -> np.ndarray:
