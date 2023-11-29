@@ -21,6 +21,7 @@ class Sender:
         """ Sends the image data with the header """
 
         "Hola po olivdona"
+        "SHUSHETUMADRE generado por Github copilot"
         pass
 
     def send_text(self, freqList) -> np.ndarray:
