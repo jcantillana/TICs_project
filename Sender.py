@@ -39,7 +39,7 @@ class Sender:
         return audio
 
     def playText(self, audio):
-        """ Plays the audio data including the 50 Hz header """
+        """ Plays the audio data including the 50 Hz header  """
         sd.play(audio, self.sampleRate)
         sd.wait()
 
