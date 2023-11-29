@@ -7,9 +7,12 @@ from Receiver import Receiver
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    Receiver = Receiver(100)
-    Receiver.listen(5)
-    Receiver.play_recorded()
-    Receiver.plot_fft()
+    sender = Sender()
+    path = "./data/text.txt"
+    sender.load_text(path)
+    sender.audioToCSV(sender.send_text(sender.dataToFrequency()), 'audiov1.txt')
+    print("s")
+
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
